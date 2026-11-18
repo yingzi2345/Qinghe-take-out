@@ -22,7 +22,7 @@ target/
 .settings/
 
 # 本地开发配置（重点！忽略带真实密钥的yml）
-sky-server/src/main/resources/application-dev.yml
+**/application-dev.yml
 
 # 日志
 logs/
@@ -31,3 +31,17 @@ logs/
 # 临时文件
 *.tmp
 *.bak
+
+nginx-1.20.2/nginx.exe
+nginx-1.20.2/docs/
+nginx-1.20.2/logs/
+nginx-1.20.2/temp/
+nginx-1.20.2/conf/
+nginx-1.20.2/contrib/
+**/*.map
+mp-weixin/node-modules/
+mp-weixin/miniprogram_npm/
+mp-weixin/project.private.config.json
+
+# WorkBuddy 本地工作记忆，非项目代码
+.workbuddy/
